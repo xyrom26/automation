@@ -48,7 +48,6 @@ pyinstaller-hooks-contrib==2023.2
 Pympler==1.0.1
 PyMsgBox==1.0.9
 pyperclip==1.8.2
-pypiwin32==223
 PyRect==0.2.0
 pyrsistent==0.19.3
 PyScreeze==0.1.28
@@ -58,7 +57,6 @@ python-dotenv==1.0.0
 pyttsx3==2.90
 pytweening==1.0.5
 pytz==2023.3
-pywin32==306
 pywin32-ctypes==0.2.0
 pyxll==5.6.0
 requests==2.29.0

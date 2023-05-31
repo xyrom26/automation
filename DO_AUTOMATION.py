@@ -823,9 +823,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),optio
 driver.maximize_window()
 
 #Link to be open
-driver.get("https://www.youtube.com/@jerhomevlogs5299")
 print(f"Excell row # done report: {row_number}")
-print("Youtube: Jerhome Vlogs")
 time.sleep(10)
 driver.quit()
 time.sleep(15)

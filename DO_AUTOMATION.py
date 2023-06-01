@@ -2,7 +2,6 @@
 
 import time
 import sys
-from openpyxl import load_workbook
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys

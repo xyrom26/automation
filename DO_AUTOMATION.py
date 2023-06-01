@@ -1,6 +1,5 @@
 #Libraries
-import keyboard
-import pyautogui
+
 import time
 import sys
 from openpyxl import load_workbook
@@ -46,13 +45,7 @@ driver.get("https://www.digitalocean.com/company/contact/abuse#intrusion")
 time.sleep(3)
 agree = driver.find_element("xpath",'.//*[@id="truste-consent-button"]')
 agree.click()
-pyautogui.hotkey('ctrl', '-')
-pyautogui.hotkey('ctrl', '-')
-pyautogui.hotkey('ctrl', '-')
-pyautogui.hotkey('ctrl', '-')
-pyautogui.hotkey('ctrl', '-')
-pyautogui.hotkey('ctrl', '-')
-pyautogui.hotkey('ctrl', '-')
+
 
 
 # Set the initial value for last_characteristic to None
